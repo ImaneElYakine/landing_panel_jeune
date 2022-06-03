@@ -196,13 +196,15 @@
         <div class="row">
             <div class="col">
                 <label class="form-label" for="nom">Nom*</label>
-                <input class="form-control" id="nom" name="nom" placeholder="Nom" required type="text">
+                <input class="form-control" id="nom" name="nom" placeholder="Nom" required type="text"
+                       oninvalid="this.setCustomValidity('Champ à compléter')" oninput="setCustomValidity('')">
             </div>
         </div>
         <div class="row">
             <div class="col">
                 <label class="form-label" for="prenom">Prénom*</label>
-                <input class="form-control" id="prenom" name="prenom" placeholder="Prénom" required type="text">
+                <input class="form-control" id="prenom" name="prenom" placeholder="Prénom" required type="text"
+                       oninvalid="this.setCustomValidity('Champ à compléter')" oninput="setCustomValidity('')">
             </div>
         </div>
         <div class="row">
