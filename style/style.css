@@ -394,10 +394,22 @@ select:active, select:focus, select:active:focus, select.active:focus {
     box-shadow: none !important;
 }
 
-#form_message {
+#form_message_info {
     background-color: white;
     border: #82D200 solid 2px;
     color: #82D200;
+    font-weight: bold;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 10vh;
+    border-radius: 0;
+    display: none;
+}
+
+#form_message_alert {
+    background-color: white;
+    border: #e10037 solid 2px;
+    color: #e10037;
     font-weight: bold;
     margin-left: 10vh;
     margin-right: 10vh;
@@ -480,10 +492,23 @@ select:active, select:focus, select:active:focus, select.active:focus {
         box-shadow: none;
     }
 
-    #form_message {
+    #form_message_info {
         background-color: white;
         border: #82D200 solid 2px;
         color: #82D200;
+        font-weight: bold;
+        margin-left: 5vh;
+        margin-right: 5vh;
+        margin-top: 1vh;
+        border-radius: 0;
+        display: none;
+        font-size: 2vh;
+    }
+
+    #form_message_alert {
+        background-color: white;
+        border: #e10037 solid 2px;
+        color: #e10037;
         font-weight: bold;
         margin-left: 5vh;
         margin-right: 5vh;
